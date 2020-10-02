@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta -->
+    <meta charset="UTF-8" />
+    <meta name="description" content="Online Quiz App" />
+    <meta name="author" content="Mohamed Salah" />
+    <meta name="keywords" content="Quiz, Online Quiz App" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title -->
+    <title>Quiz App</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/fontawesome.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Start Container -->
+    <div class="container">
+      <h1>Quiz App</h1>
+      <!-- Start App -->
+      <div class="app">
+        <!-- Start Quiz Info -->
+        <div class="quiz-info section">
+          <div class="category">Topic: <span>HTML</span></div>
+          <div class="questions-count">Questions: <span id="numberOfQuestions"></span></div>
+        </div>
+        <!-- End Quiz Info -->
+
+        <!-- Start Quiz Body -->
+        <div class="quiz-body section" id="quiz-body">
+          <!-- Start Question -->
+          <div class="question" id="question"></div>
+          <!-- End Question -->
+
+          <!-- Start Answers -->
+          <div class="answers" id="answers"></div>
+          <!-- End Answers -->
+        </div>
+        <!-- End Quiz Body -->
+
+        <!-- Start Submit -->
+        <button class="submit" id="submit">Submit Answer</button>
+        <!-- End Submit -->
+
+        <!-- Start Quiz Footer -->
+        <div class="quiz-footer section">
+          <!-- Start Bullets -->
+          <div class="bullets" id="bullets"></div>
+          <!-- End Bullets -->
+
+          <!-- Start Timer -->
+          <div class="timer"><span id="minutes"></span> : <span id="seconds"></span></div>
+          <!-- End Timer -->
+        </div>
+        <!-- End Quiz Footer -->
+
+        <!-- Start Result -->
+        <div class="result" id="result">
+          <strong id="state"></strong> You Have Answered <span id="answered"></span> From
+          <span id="countOfQuestions"></span>
+        </div>
+        <!-- End Result -->
+      </div>
+      <!-- End App -->
+
+      <!-- Start Footer -->
+      <footer>
+        <div class="copyright">&copy; 2020 | <span>Mohamed Salah</span></div>
+        <div class="links">
+          <a href="https://github.com/salahineo" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/salahineo/" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://salahineo.github.io/salahineo/" target="_blank">
+            <i class="fas fa-globe-africa"></i>
+          </a>
+          <a href="https://twitter.com/salahineo" target="_blank">
+            <i class="fab fa-twitter"> </i>
+          </a>
+          <a href="https://www.facebook.com/salahineo/" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="mailto:salahineo.work@gmail.com" target="_blank">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </footer>
+      <!-- End Footer -->
+    </div>
+    <!-- End Container -->
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

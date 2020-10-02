@@ -1,0 +1,34 @@
+[
+  {
+    "question": "What does HTML stands for?",
+    "option1": "Hypertext Machine language",
+    "option2": "Hypertext and links markup language",
+    "option3": "Hypertext Markup Language",
+    "option4": "Hightext machine language",
+    "correct": "Hypertext Markup Language"
+  },
+  {
+    "question": "How is document type initialized in HTML5?",
+    "option1": "</DOCTYPE HTML>",
+    "option2": "</DOCTYPE>",
+    "option3": "<!DOCTYPE HTML>",
+    "option4": "</DOCTYPE html>",
+    "correct": "<!DOCTYPE HTML>"
+  },
+  {
+    "question": "Which of the following HTML Elements is used for making any text bold?",
+    "option1": "<p>",
+    "option2": "<i>",
+    "option3": "<bold>",
+    "option4": "<b>",
+    "correct": "<b>"
+  },
+  {
+    "question": "Which of the following HTML element is used for creating an unordered list?",
+    "option1": "<ui>",
+    "option2": "<ol>",
+    "option3": "<ul>",
+    "option4": "<em>",
+    "correct": "<ul>"
+  }
+]
