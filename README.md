@@ -47,7 +47,6 @@ Here is the demo of this [application](https://salahineo.github.io/Multi-Choices
 - [LinkedIn](https://linkedin.com/in/salahineo) 💼
 - [Facebook](https://facebook.com/salahineo) 😎
 - [Twitter](https://twitter.com/salahineo) 🐤
-- [Behance](https://www.behance.net/salahineo) :art:
 - [Website](https://salahineo.github.io/salahineo/) :globe_with_meridians:
 - <a href="mailto:salahineo.work@gmail.com">Email</a> :email:
 
