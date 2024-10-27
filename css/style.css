@@ -181,7 +181,7 @@ body {
 footer {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   max-width: 800px;
   margin: auto;
   padding: 15px;
@@ -192,7 +192,7 @@ footer .copyright {
   font-weight: 600;
 }
 
-footer .copyright span.name {
+footer .copyright .name {
   color: #0075ff;
 }
 
